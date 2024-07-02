@@ -1,8 +1,8 @@
-# Version 0.1.2
+# Version 1.0.2
 - Compatibility check for Foundry v12
 
-# Version 0.1.1
+# Version 1.0.1
 - Compatibility check for Foundry v10 and v11
 
-# Version 0.1.0
+# Version 1.0.0
 Initial release
