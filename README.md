@@ -1,5 +1,9 @@
 # show-table
-A Foundry VTT module that adds a "Show Players" option to the header buttons for Rollable Tables. It shows to all players. Players who don't have sufficient permissions to view the table will see a yellow warning message at the top of their screen. This work is licensed under the [Foundry Virtual Tabletop EULA - Limited License Agreement for Module Development](https://foundryvtt.com/article/license/).
+A Foundry VTT module that adds a "Show Players" option to the header buttons for Rollable Tables. It shows to all players. Players who don't have sufficient permissions to view the table will see a yellow warning message at the top of their screen. 
+![image](https://github.com/user-attachments/assets/57df20a7-ad9e-4376-92d7-36c84200b0b1)
+
+# License
+This work is licensed under the [Foundry Virtual Tabletop EULA - Limited License Agreement for Module Development](https://foundryvtt.com/article/license/).
 
 # Installation
 Via manifest only: https://raw.githubusercontent.com/crash1115/show-table/main/module.json
