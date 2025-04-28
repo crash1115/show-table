@@ -5,7 +5,7 @@ On V13:
 
 ![image](https://github.com/user-attachments/assets/8bc3d988-0f5d-473a-9b98-088fbd293670)
 
-On V12:
+On V12 and earlier:
 
 ![image](https://github.com/user-attachments/assets/57df20a7-ad9e-4376-92d7-36c84200b0b1)
 
