@@ -1,5 +1,12 @@
 # show-table
 A Foundry VTT module that adds a "Show Players" option to the header buttons for Rollable Tables. It shows to all players. Players who don't have sufficient permissions to view the table will see a yellow warning message at the top of their screen. 
+
+On V13:
+
+![image](https://github.com/user-attachments/assets/8bc3d988-0f5d-473a-9b98-088fbd293670)
+
+On V12:
+
 ![image](https://github.com/user-attachments/assets/57df20a7-ad9e-4376-92d7-36c84200b0b1)
 
 # License
