@@ -1,3 +1,6 @@
+# Version 1.1.0
+- Compatibility updates for Foundry v13
+
 # Version 1.0.2
 - Compatibility check for Foundry v12
 

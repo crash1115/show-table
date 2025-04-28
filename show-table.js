@@ -4,7 +4,7 @@ import { libWrapper } from './scripts/libwrapper-shim.js'
 Hooks.once('setup', function () {
   libWrapper.register(
     'show-table',
-    `RollTableConfig.prototype._getHeaderButtons`,
+    `foundry.applications.sheets.RollTableSheet.prototype._getHeaderControls`,
     addShowToPlayersBtn,
     'WRAPPER',
   )
@@ -20,16 +20,19 @@ Hooks.once('ready', function () {
 // Add a button
 function addShowToPlayersBtn(wrapped){
   const buttons = wrapped.bind(this)()
-  let id = this.object.id;
+  let id = this.document.id;
   if(game.user.isGM){
+    // Add the button
     buttons.unshift({
+      action: "showTableToPlayers",
       label: 'Show Players',
-      class: 'show-table',
       icon: 'far fa-eye',
-      onclick: async ev => {
-        return game.socket.emit('module.show-table', {tableId: id})
-      },
-    })
+      visible: game.user.isGM
+    });
+    // Add the action
+    this.options.actions.showTableToPlayers = async (ev) => {
+      return game.socket.emit('module.show-table', {tableId: id})
+    };
   }
   return buttons;
 }
